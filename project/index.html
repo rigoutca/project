@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="demo.js"></script>
+    <script src="dropdownmenuworking.js" defer></script>
+    <script src="navigaciomenuJava.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="height: 2200px;">
+    
+    <div class="oldalNavigacioMenu" id="navigaciomenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Partners</a>
+        <a href="#">Location</a>
+    </div>
+
+    <div class="head-logo">
+
+        <div class="MenuGomb">
+            <span onclick="openNav()"><img src="menu.png" alt=""  width="50px" height="50%" class="menuGombPozicio"></span>   
+        </div>
+
+        <nav>
+            <a href="index.html" style="width: 100px; height: 100px;"><img src="logo.png" alt="" class="logo" style="text-align: center;"></a>
+        </nav>
+     </div>
+     <!-- Háttérkép -->
+
+    <div class="header">
+
+     <div class="text-box"><p id="demo"></p></div>
+     
+
+
+      <a href="#aboutUsSection" class="buttonVisit" style="text-decoration: none;">About Us</a>
+
+
+
+     </div>
+
+    </div>
+    
+    <!-- Szöveg, fejléc, gomb -->
+
+    <div class="article">
+        <div class="aboutus" id="aboutUsSection">
+            About us
+        </div>  
+
+        <div class="line">  </div>
+    <table class="kepsor">
+        <tr>
+            <td>
+                <div class="numberOne">
+                    <img src="Sushi.png" alt="" class="kajaFood">
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                </div>
+            </td>
+            <td><div class="numberTwo"><img src="helyszin.jpg" alt="" class="helyszinLocation"></div></td>
+            <td><div class="numberThree"><img src="host.jpg" alt="" class="sefFounder"></div></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

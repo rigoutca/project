@@ -12,7 +12,7 @@
     position: relative;
 }
 .head-logo{
-    width: 1903px;
+    width: 2071px;
     height: 120px;
     background-color: #FA8072;
     position: sticky;
@@ -97,26 +97,6 @@
     top: 1602px;
     left: 30px;
 }
-.container {
-    position: relative;
-    width: 50%;
-  }
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA; 
-}
-.container:hover .overlay{
-    opacity: 1;
-}
-
 .article .helyszinLocation{
     display: flex;
     width: 600px;
@@ -187,6 +167,36 @@ html{
 
 .menuGombPozicio:hover{
     cursor: pointer;
+}
+
+.container {
+    display: flex;
+    position: auto;
+}
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 0.5s;
+    opacity: 0;
+    background-color: burlywood;
+}
+.container:hover .overlay{
+    opacity: 1;
+}   
+.text {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    font-family: teko-sans-serif;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
